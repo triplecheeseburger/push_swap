@@ -1,0 +1,43 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/push_swap.dir/deque/deque_1.c.o"
+  "CMakeFiles/push_swap.dir/deque/deque_1.c.o.d"
+  "CMakeFiles/push_swap.dir/deque/deque_2.c.o"
+  "CMakeFiles/push_swap.dir/deque/deque_2.c.o.d"
+  "CMakeFiles/push_swap.dir/main.c.o"
+  "CMakeFiles/push_swap.dir/main.c.o.d"
+  "CMakeFiles/push_swap.dir/operation/rotate_n_reverse.c.o"
+  "CMakeFiles/push_swap.dir/operation/rotate_n_reverse.c.o.d"
+  "CMakeFiles/push_swap.dir/operation/swap_n_push.c.o"
+  "CMakeFiles/push_swap.dir/operation/swap_n_push.c.o.d"
+  "CMakeFiles/push_swap.dir/parser/parse.c.o"
+  "CMakeFiles/push_swap.dir/parser/parse.c.o.d"
+  "CMakeFiles/push_swap.dir/parser/parsing_utils.c.o"
+  "CMakeFiles/push_swap.dir/parser/parsing_utils.c.o.d"
+  "CMakeFiles/push_swap.dir/sorting/push_swap.c.o"
+  "CMakeFiles/push_swap.dir/sorting/push_swap.c.o.d"
+  "CMakeFiles/push_swap.dir/sorting/sort_big.c.o"
+  "CMakeFiles/push_swap.dir/sorting/sort_big.c.o.d"
+  "CMakeFiles/push_swap.dir/sorting/sort_big_pos.c.o"
+  "CMakeFiles/push_swap.dir/sorting/sort_big_pos.c.o.d"
+  "CMakeFiles/push_swap.dir/sorting/sort_gets.c.o"
+  "CMakeFiles/push_swap.dir/sorting/sort_gets.c.o.d"
+  "CMakeFiles/push_swap.dir/sorting/sort_shorts.c.o"
+  "CMakeFiles/push_swap.dir/sorting/sort_shorts.c.o.d"
+  "CMakeFiles/push_swap.dir/sorting/sort_utils.c.o"
+  "CMakeFiles/push_swap.dir/sorting/sort_utils.c.o.d"
+  "CMakeFiles/push_swap.dir/utils/lis.c.o"
+  "CMakeFiles/push_swap.dir/utils/lis.c.o.d"
+  "CMakeFiles/push_swap.dir/utils/merge_sort.c.o"
+  "CMakeFiles/push_swap.dir/utils/merge_sort.c.o.d"
+  "CMakeFiles/push_swap.dir/utils/utils.c.o"
+  "CMakeFiles/push_swap.dir/utils/utils.c.o.d"
+  "CMakeFiles/push_swap.dir/utils/utils_2.c.o"
+  "CMakeFiles/push_swap.dir/utils/utils_2.c.o.d"
+  "push_swap"
+  "push_swap.pdb"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang C)
+  include(CMakeFiles/push_swap.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()
