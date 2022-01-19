@@ -1,10 +1,10 @@
 cmake_minimum_required(VERSION 3.21)
 project(push_swap C)
 
-#link_directories(/Users/hakim/push_swap/libft)
-#include_directories(/Users/hakim/push_swap/includes)
-link_directories(/Users/hangyulkim/42/42cursus/2_circle/push_swap/libft)
-include_directories(/Users/hangyulkim/42/42cursus/2_circle/push_swap/includes)
+link_directories(/Users/hakim/push_swap_git/libft)
+include_directories(/Users/hakim/push_swap_git/includes)
+#link_directories(/Users/hangyulkim/42/42cursus/2_circle/push_swap/libft)
+#include_directories(/Users/hangyulkim/42/42cursus/2_circle/push_swap/includes)
 set(CMAKE_C_STANDARD 99)
 set(CMAKE_C_FLAGS "-Wall -Wextra -Werror -I./includes")
 

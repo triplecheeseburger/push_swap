@@ -8,191 +8,195 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/Users/hangyulkim/42/42cursus/2_circle/push_swap/cmake-build-debug"/>
+				<Option working_dir="/Users/hakim/push_swap_git/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/hangyulkim/42/42cursus/2_circle/push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/hangyulkim/42/42cursus/2_circle/push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/hangyulkim/42/42cursus/2_circle/push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/hangyulkim/42/42cursus/2_circle/push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j6 -f &quot;/Users/hakim/push_swap_git/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/hakim/push_swap_git/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/Users/hakim/push_swap_git/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/hakim/push_swap_git/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/Users/hangyulkim/42/42cursus/2_circle/push_swap/cmake-build-debug"/>
+				<Option working_dir="/Users/hakim/push_swap_git/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/hangyulkim/42/42cursus/2_circle/push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/hangyulkim/42/42cursus/2_circle/push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/hangyulkim/42/42cursus/2_circle/push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/hangyulkim/42/42cursus/2_circle/push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j6 -f &quot;/Users/hakim/push_swap_git/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/hakim/push_swap_git/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/Users/hakim/push_swap_git/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/hakim/push_swap_git/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/Users/hangyulkim/42/42cursus/2_circle/push_swap/cmake-build-debug"/>
+				<Option working_dir="/Users/hakim/push_swap_git/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/hangyulkim/42/42cursus/2_circle/push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/hangyulkim/42/42cursus/2_circle/push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/hangyulkim/42/42cursus/2_circle/push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/hangyulkim/42/42cursus/2_circle/push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j6 -f &quot;/Users/hakim/push_swap_git/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/hakim/push_swap_git/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/Users/hakim/push_swap_git/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/hakim/push_swap_git/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="checker">
-				<Option output="/Users/hangyulkim/42/42cursus/2_circle/push_swap/cmake-build-debug/checker" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/hangyulkim/42/42cursus/2_circle/push_swap/cmake-build-debug"/>
+				<Option output="/Users/hakim/push_swap_git/cmake-build-debug/checker" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/hakim/push_swap_git/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Users/hangyulkim/42/42cursus/2_circle/push_swap/includes"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/Users/hakim/push_swap_git/includes"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
 					<Add directory="/System/Library/Frameworks"/>
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/hangyulkim/42/42cursus/2_circle/push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 checker"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/hangyulkim/42/42cursus/2_circle/push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/hangyulkim/42/42cursus/2_circle/push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/hangyulkim/42/42cursus/2_circle/push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j6 -f &quot;/Users/hakim/push_swap_git/cmake-build-debug/Makefile&quot;  VERBOSE=1 checker"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/hakim/push_swap_git/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/Users/hakim/push_swap_git/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/hakim/push_swap_git/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="checker/fast">
-				<Option output="/Users/hangyulkim/42/42cursus/2_circle/push_swap/cmake-build-debug/checker" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/hangyulkim/42/42cursus/2_circle/push_swap/cmake-build-debug"/>
+				<Option output="/Users/hakim/push_swap_git/cmake-build-debug/checker" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/hakim/push_swap_git/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Users/hangyulkim/42/42cursus/2_circle/push_swap/includes"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/Users/hakim/push_swap_git/includes"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
 					<Add directory="/System/Library/Frameworks"/>
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/hangyulkim/42/42cursus/2_circle/push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 checker/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/hangyulkim/42/42cursus/2_circle/push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/hangyulkim/42/42cursus/2_circle/push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/hangyulkim/42/42cursus/2_circle/push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j6 -f &quot;/Users/hakim/push_swap_git/cmake-build-debug/Makefile&quot;  VERBOSE=1 checker/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/hakim/push_swap_git/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/Users/hakim/push_swap_git/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/hakim/push_swap_git/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="push_swap">
-				<Option output="/Users/hangyulkim/42/42cursus/2_circle/push_swap/cmake-build-debug/push_swap" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/hangyulkim/42/42cursus/2_circle/push_swap/cmake-build-debug"/>
+				<Option output="/Users/hakim/push_swap_git/cmake-build-debug/push_swap" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/hakim/push_swap_git/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Users/hangyulkim/42/42cursus/2_circle/push_swap/includes"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/Users/hakim/push_swap_git/includes"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
 					<Add directory="/System/Library/Frameworks"/>
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/hangyulkim/42/42cursus/2_circle/push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 push_swap"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/hangyulkim/42/42cursus/2_circle/push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/hangyulkim/42/42cursus/2_circle/push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/hangyulkim/42/42cursus/2_circle/push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j6 -f &quot;/Users/hakim/push_swap_git/cmake-build-debug/Makefile&quot;  VERBOSE=1 push_swap"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/hakim/push_swap_git/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/Users/hakim/push_swap_git/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/hakim/push_swap_git/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="push_swap/fast">
-				<Option output="/Users/hangyulkim/42/42cursus/2_circle/push_swap/cmake-build-debug/push_swap" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/hangyulkim/42/42cursus/2_circle/push_swap/cmake-build-debug"/>
+				<Option output="/Users/hakim/push_swap_git/cmake-build-debug/push_swap" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/hakim/push_swap_git/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Users/hangyulkim/42/42cursus/2_circle/push_swap/includes"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/Users/hakim/push_swap_git/includes"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
 					<Add directory="/System/Library/Frameworks"/>
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/hangyulkim/42/42cursus/2_circle/push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 push_swap/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/hangyulkim/42/42cursus/2_circle/push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/hangyulkim/42/42cursus/2_circle/push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/hangyulkim/42/42cursus/2_circle/push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j6 -f &quot;/Users/hakim/push_swap_git/cmake-build-debug/Makefile&quot;  VERBOSE=1 push_swap/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/hakim/push_swap_git/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/Users/hakim/push_swap_git/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/hakim/push_swap_git/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/hangyulkim/42/42cursus/2_circle/push_swap/checkerdir/checker.c">
+		<Unit filename="/Users/hakim/push_swap_git/checkerdir/checker.c">
 			<Option target="checker"/>
 		</Unit>
-		<Unit filename="/Users/hangyulkim/42/42cursus/2_circle/push_swap/checkerdir/checker_oper_1.c">
+		<Unit filename="/Users/hakim/push_swap_git/checkerdir/checker_oper_1.c">
 			<Option target="checker"/>
 		</Unit>
-		<Unit filename="/Users/hangyulkim/42/42cursus/2_circle/push_swap/checkerdir/checker_oper_2.c">
+		<Unit filename="/Users/hakim/push_swap_git/checkerdir/checker_oper_2.c">
 			<Option target="checker"/>
 		</Unit>
-		<Unit filename="/Users/hangyulkim/42/42cursus/2_circle/push_swap/deque/deque_1.c">
-			<Option target="checker"/>
-			<Option target="push_swap"/>
-		</Unit>
-		<Unit filename="/Users/hangyulkim/42/42cursus/2_circle/push_swap/deque/deque_2.c">
+		<Unit filename="/Users/hakim/push_swap_git/deque/deque_1.c">
 			<Option target="checker"/>
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/hangyulkim/42/42cursus/2_circle/push_swap/get_next_line/get_next_line.c">
-			<Option target="checker"/>
-		</Unit>
-		<Unit filename="/Users/hangyulkim/42/42cursus/2_circle/push_swap/get_next_line/get_next_line_utils.c">
-			<Option target="checker"/>
-		</Unit>
-		<Unit filename="/Users/hangyulkim/42/42cursus/2_circle/push_swap/main.c">
-			<Option target="push_swap"/>
-		</Unit>
-		<Unit filename="/Users/hangyulkim/42/42cursus/2_circle/push_swap/operation/rotate_n_reverse.c">
-			<Option target="push_swap"/>
-		</Unit>
-		<Unit filename="/Users/hangyulkim/42/42cursus/2_circle/push_swap/operation/swap_n_push.c">
-			<Option target="push_swap"/>
-		</Unit>
-		<Unit filename="/Users/hangyulkim/42/42cursus/2_circle/push_swap/parser/parse.c">
+		<Unit filename="/Users/hakim/push_swap_git/deque/deque_2.c">
 			<Option target="checker"/>
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/hangyulkim/42/42cursus/2_circle/push_swap/parser/parsing_utils.c">
+		<Unit filename="/Users/hakim/push_swap_git/get_next_line/get_next_line.c">
+			<Option target="checker"/>
+		</Unit>
+		<Unit filename="/Users/hakim/push_swap_git/get_next_line/get_next_line_utils.c">
+			<Option target="checker"/>
+		</Unit>
+		<Unit filename="/Users/hakim/push_swap_git/main.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/Users/hakim/push_swap_git/operation/rotate_n_reverse.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/Users/hakim/push_swap_git/operation/swap_n_push.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/Users/hakim/push_swap_git/parser/parse.c">
 			<Option target="checker"/>
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/hangyulkim/42/42cursus/2_circle/push_swap/sorting/push_swap.c">
-			<Option target="push_swap"/>
-		</Unit>
-		<Unit filename="/Users/hangyulkim/42/42cursus/2_circle/push_swap/sorting/sort_big.c">
-			<Option target="push_swap"/>
-		</Unit>
-		<Unit filename="/Users/hangyulkim/42/42cursus/2_circle/push_swap/sorting/sort_big_pos.c">
-			<Option target="push_swap"/>
-		</Unit>
-		<Unit filename="/Users/hangyulkim/42/42cursus/2_circle/push_swap/sorting/sort_gets.c">
+		<Unit filename="/Users/hakim/push_swap_git/parser/parsing_utils.c">
 			<Option target="checker"/>
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/hangyulkim/42/42cursus/2_circle/push_swap/sorting/sort_shorts.c">
+		<Unit filename="/Users/hakim/push_swap_git/sorting/push_swap.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/hangyulkim/42/42cursus/2_circle/push_swap/sorting/sort_utils.c">
+		<Unit filename="/Users/hakim/push_swap_git/sorting/sort_big.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/hangyulkim/42/42cursus/2_circle/push_swap/utils/lis.c">
+		<Unit filename="/Users/hakim/push_swap_git/sorting/sort_big_pos.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/hangyulkim/42/42cursus/2_circle/push_swap/utils/merge_sort.c">
+		<Unit filename="/Users/hakim/push_swap_git/sorting/sort_gets.c">
 			<Option target="checker"/>
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/hangyulkim/42/42cursus/2_circle/push_swap/utils/utils.c">
+		<Unit filename="/Users/hakim/push_swap_git/sorting/sort_shorts.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/Users/hakim/push_swap_git/sorting/sort_utils.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/Users/hakim/push_swap_git/utils/lis.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/Users/hakim/push_swap_git/utils/merge_sort.c">
 			<Option target="checker"/>
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/hangyulkim/42/42cursus/2_circle/push_swap/utils/utils_2.c">
+		<Unit filename="/Users/hakim/push_swap_git/utils/utils.c">
 			<Option target="checker"/>
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/hangyulkim/42/42cursus/2_circle/push_swap/CMakeLists.txt">
+		<Unit filename="/Users/hakim/push_swap_git/utils/utils_2.c">
+			<Option target="checker"/>
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/Users/hakim/push_swap_git/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

@@ -57,7 +57,7 @@ int		is_in_arr(int a, int *lis);
 int		ft_abs(int n);
 int		ft_min(int a, int b);
 int		ft_max(int a, int b);
-void	ft_free_intarr(int *arr);
+int		*ft_free_intarr(int *arr);
 void	ft_intset(int *arr, int n, int size);
 t_bool	stack_empty(t_deque *deque);
 t_bool	is_deque_sorted(t_deque *deque);

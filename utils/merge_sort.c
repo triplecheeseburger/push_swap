@@ -62,10 +62,14 @@ int	*merge_sort(int *temp, int count)
 
 	arr = malloc(sizeof(int *) * 2);
 	if (arr == 0)
-		return (0);
+		return (ft_free_intarr(temp));
 	sorted = malloc(sizeof(int) * count);
 	if (sorted == 0)
-		return (0);
+	{
+		free(arr);
+		arr = 0;
+		return (ft_free_intarr(temp));
+	}
 	arr[0] = temp;
 	arr[1] = sorted;
 	merge_recursive(arr, 0, count - 1);

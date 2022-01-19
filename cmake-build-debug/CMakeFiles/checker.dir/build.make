@@ -44,19 +44,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake
+CMAKE_COMMAND = /private/var/folders/zz/zyxvpxvq6csfxvn_n000clmh0034x4/T/AppTranslocation/26B0D72F-B508-4680-9167-34955CFF61D7/d/CLion.app/Contents/bin/cmake/mac/bin/cmake
 
 # The command to remove a file.
-RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
+RM = /private/var/folders/zz/zyxvpxvq6csfxvn_n000clmh0034x4/T/AppTranslocation/26B0D72F-B508-4680-9167-34955CFF61D7/d/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/hangyulkim/42/42cursus/2_circle/push_swap
+CMAKE_SOURCE_DIR = /Users/hakim/push_swap_git
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/hangyulkim/42/42cursus/2_circle/push_swap/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/hakim/push_swap_git/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/checker.dir/depend.make
@@ -72,184 +72,184 @@ include CMakeFiles/checker.dir/flags.make
 CMakeFiles/checker.dir/deque/deque_2.c.o: CMakeFiles/checker.dir/flags.make
 CMakeFiles/checker.dir/deque/deque_2.c.o: ../deque/deque_2.c
 CMakeFiles/checker.dir/deque/deque_2.c.o: CMakeFiles/checker.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hangyulkim/42/42cursus/2_circle/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/checker.dir/deque/deque_2.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/checker.dir/deque/deque_2.c.o -MF CMakeFiles/checker.dir/deque/deque_2.c.o.d -o CMakeFiles/checker.dir/deque/deque_2.c.o -c /Users/hangyulkim/42/42cursus/2_circle/push_swap/deque/deque_2.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hakim/push_swap_git/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/checker.dir/deque/deque_2.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/checker.dir/deque/deque_2.c.o -MF CMakeFiles/checker.dir/deque/deque_2.c.o.d -o CMakeFiles/checker.dir/deque/deque_2.c.o -c /Users/hakim/push_swap_git/deque/deque_2.c
 
 CMakeFiles/checker.dir/deque/deque_2.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/checker.dir/deque/deque_2.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/hangyulkim/42/42cursus/2_circle/push_swap/deque/deque_2.c > CMakeFiles/checker.dir/deque/deque_2.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/hakim/push_swap_git/deque/deque_2.c > CMakeFiles/checker.dir/deque/deque_2.c.i
 
 CMakeFiles/checker.dir/deque/deque_2.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/checker.dir/deque/deque_2.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/hangyulkim/42/42cursus/2_circle/push_swap/deque/deque_2.c -o CMakeFiles/checker.dir/deque/deque_2.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/hakim/push_swap_git/deque/deque_2.c -o CMakeFiles/checker.dir/deque/deque_2.c.s
 
 CMakeFiles/checker.dir/deque/deque_1.c.o: CMakeFiles/checker.dir/flags.make
 CMakeFiles/checker.dir/deque/deque_1.c.o: ../deque/deque_1.c
 CMakeFiles/checker.dir/deque/deque_1.c.o: CMakeFiles/checker.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hangyulkim/42/42cursus/2_circle/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/checker.dir/deque/deque_1.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/checker.dir/deque/deque_1.c.o -MF CMakeFiles/checker.dir/deque/deque_1.c.o.d -o CMakeFiles/checker.dir/deque/deque_1.c.o -c /Users/hangyulkim/42/42cursus/2_circle/push_swap/deque/deque_1.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hakim/push_swap_git/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/checker.dir/deque/deque_1.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/checker.dir/deque/deque_1.c.o -MF CMakeFiles/checker.dir/deque/deque_1.c.o.d -o CMakeFiles/checker.dir/deque/deque_1.c.o -c /Users/hakim/push_swap_git/deque/deque_1.c
 
 CMakeFiles/checker.dir/deque/deque_1.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/checker.dir/deque/deque_1.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/hangyulkim/42/42cursus/2_circle/push_swap/deque/deque_1.c > CMakeFiles/checker.dir/deque/deque_1.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/hakim/push_swap_git/deque/deque_1.c > CMakeFiles/checker.dir/deque/deque_1.c.i
 
 CMakeFiles/checker.dir/deque/deque_1.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/checker.dir/deque/deque_1.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/hangyulkim/42/42cursus/2_circle/push_swap/deque/deque_1.c -o CMakeFiles/checker.dir/deque/deque_1.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/hakim/push_swap_git/deque/deque_1.c -o CMakeFiles/checker.dir/deque/deque_1.c.s
 
 CMakeFiles/checker.dir/parser/parse.c.o: CMakeFiles/checker.dir/flags.make
 CMakeFiles/checker.dir/parser/parse.c.o: ../parser/parse.c
 CMakeFiles/checker.dir/parser/parse.c.o: CMakeFiles/checker.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hangyulkim/42/42cursus/2_circle/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/checker.dir/parser/parse.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/checker.dir/parser/parse.c.o -MF CMakeFiles/checker.dir/parser/parse.c.o.d -o CMakeFiles/checker.dir/parser/parse.c.o -c /Users/hangyulkim/42/42cursus/2_circle/push_swap/parser/parse.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hakim/push_swap_git/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/checker.dir/parser/parse.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/checker.dir/parser/parse.c.o -MF CMakeFiles/checker.dir/parser/parse.c.o.d -o CMakeFiles/checker.dir/parser/parse.c.o -c /Users/hakim/push_swap_git/parser/parse.c
 
 CMakeFiles/checker.dir/parser/parse.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/checker.dir/parser/parse.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/hangyulkim/42/42cursus/2_circle/push_swap/parser/parse.c > CMakeFiles/checker.dir/parser/parse.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/hakim/push_swap_git/parser/parse.c > CMakeFiles/checker.dir/parser/parse.c.i
 
 CMakeFiles/checker.dir/parser/parse.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/checker.dir/parser/parse.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/hangyulkim/42/42cursus/2_circle/push_swap/parser/parse.c -o CMakeFiles/checker.dir/parser/parse.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/hakim/push_swap_git/parser/parse.c -o CMakeFiles/checker.dir/parser/parse.c.s
 
 CMakeFiles/checker.dir/parser/parsing_utils.c.o: CMakeFiles/checker.dir/flags.make
 CMakeFiles/checker.dir/parser/parsing_utils.c.o: ../parser/parsing_utils.c
 CMakeFiles/checker.dir/parser/parsing_utils.c.o: CMakeFiles/checker.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hangyulkim/42/42cursus/2_circle/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/checker.dir/parser/parsing_utils.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/checker.dir/parser/parsing_utils.c.o -MF CMakeFiles/checker.dir/parser/parsing_utils.c.o.d -o CMakeFiles/checker.dir/parser/parsing_utils.c.o -c /Users/hangyulkim/42/42cursus/2_circle/push_swap/parser/parsing_utils.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hakim/push_swap_git/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/checker.dir/parser/parsing_utils.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/checker.dir/parser/parsing_utils.c.o -MF CMakeFiles/checker.dir/parser/parsing_utils.c.o.d -o CMakeFiles/checker.dir/parser/parsing_utils.c.o -c /Users/hakim/push_swap_git/parser/parsing_utils.c
 
 CMakeFiles/checker.dir/parser/parsing_utils.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/checker.dir/parser/parsing_utils.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/hangyulkim/42/42cursus/2_circle/push_swap/parser/parsing_utils.c > CMakeFiles/checker.dir/parser/parsing_utils.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/hakim/push_swap_git/parser/parsing_utils.c > CMakeFiles/checker.dir/parser/parsing_utils.c.i
 
 CMakeFiles/checker.dir/parser/parsing_utils.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/checker.dir/parser/parsing_utils.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/hangyulkim/42/42cursus/2_circle/push_swap/parser/parsing_utils.c -o CMakeFiles/checker.dir/parser/parsing_utils.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/hakim/push_swap_git/parser/parsing_utils.c -o CMakeFiles/checker.dir/parser/parsing_utils.c.s
 
 CMakeFiles/checker.dir/utils/merge_sort.c.o: CMakeFiles/checker.dir/flags.make
 CMakeFiles/checker.dir/utils/merge_sort.c.o: ../utils/merge_sort.c
 CMakeFiles/checker.dir/utils/merge_sort.c.o: CMakeFiles/checker.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hangyulkim/42/42cursus/2_circle/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/checker.dir/utils/merge_sort.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/checker.dir/utils/merge_sort.c.o -MF CMakeFiles/checker.dir/utils/merge_sort.c.o.d -o CMakeFiles/checker.dir/utils/merge_sort.c.o -c /Users/hangyulkim/42/42cursus/2_circle/push_swap/utils/merge_sort.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hakim/push_swap_git/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/checker.dir/utils/merge_sort.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/checker.dir/utils/merge_sort.c.o -MF CMakeFiles/checker.dir/utils/merge_sort.c.o.d -o CMakeFiles/checker.dir/utils/merge_sort.c.o -c /Users/hakim/push_swap_git/utils/merge_sort.c
 
 CMakeFiles/checker.dir/utils/merge_sort.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/checker.dir/utils/merge_sort.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/hangyulkim/42/42cursus/2_circle/push_swap/utils/merge_sort.c > CMakeFiles/checker.dir/utils/merge_sort.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/hakim/push_swap_git/utils/merge_sort.c > CMakeFiles/checker.dir/utils/merge_sort.c.i
 
 CMakeFiles/checker.dir/utils/merge_sort.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/checker.dir/utils/merge_sort.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/hangyulkim/42/42cursus/2_circle/push_swap/utils/merge_sort.c -o CMakeFiles/checker.dir/utils/merge_sort.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/hakim/push_swap_git/utils/merge_sort.c -o CMakeFiles/checker.dir/utils/merge_sort.c.s
 
 CMakeFiles/checker.dir/utils/utils.c.o: CMakeFiles/checker.dir/flags.make
 CMakeFiles/checker.dir/utils/utils.c.o: ../utils/utils.c
 CMakeFiles/checker.dir/utils/utils.c.o: CMakeFiles/checker.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hangyulkim/42/42cursus/2_circle/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/checker.dir/utils/utils.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/checker.dir/utils/utils.c.o -MF CMakeFiles/checker.dir/utils/utils.c.o.d -o CMakeFiles/checker.dir/utils/utils.c.o -c /Users/hangyulkim/42/42cursus/2_circle/push_swap/utils/utils.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hakim/push_swap_git/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/checker.dir/utils/utils.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/checker.dir/utils/utils.c.o -MF CMakeFiles/checker.dir/utils/utils.c.o.d -o CMakeFiles/checker.dir/utils/utils.c.o -c /Users/hakim/push_swap_git/utils/utils.c
 
 CMakeFiles/checker.dir/utils/utils.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/checker.dir/utils/utils.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/hangyulkim/42/42cursus/2_circle/push_swap/utils/utils.c > CMakeFiles/checker.dir/utils/utils.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/hakim/push_swap_git/utils/utils.c > CMakeFiles/checker.dir/utils/utils.c.i
 
 CMakeFiles/checker.dir/utils/utils.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/checker.dir/utils/utils.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/hangyulkim/42/42cursus/2_circle/push_swap/utils/utils.c -o CMakeFiles/checker.dir/utils/utils.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/hakim/push_swap_git/utils/utils.c -o CMakeFiles/checker.dir/utils/utils.c.s
 
 CMakeFiles/checker.dir/utils/utils_2.c.o: CMakeFiles/checker.dir/flags.make
 CMakeFiles/checker.dir/utils/utils_2.c.o: ../utils/utils_2.c
 CMakeFiles/checker.dir/utils/utils_2.c.o: CMakeFiles/checker.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hangyulkim/42/42cursus/2_circle/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/checker.dir/utils/utils_2.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/checker.dir/utils/utils_2.c.o -MF CMakeFiles/checker.dir/utils/utils_2.c.o.d -o CMakeFiles/checker.dir/utils/utils_2.c.o -c /Users/hangyulkim/42/42cursus/2_circle/push_swap/utils/utils_2.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hakim/push_swap_git/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/checker.dir/utils/utils_2.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/checker.dir/utils/utils_2.c.o -MF CMakeFiles/checker.dir/utils/utils_2.c.o.d -o CMakeFiles/checker.dir/utils/utils_2.c.o -c /Users/hakim/push_swap_git/utils/utils_2.c
 
 CMakeFiles/checker.dir/utils/utils_2.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/checker.dir/utils/utils_2.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/hangyulkim/42/42cursus/2_circle/push_swap/utils/utils_2.c > CMakeFiles/checker.dir/utils/utils_2.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/hakim/push_swap_git/utils/utils_2.c > CMakeFiles/checker.dir/utils/utils_2.c.i
 
 CMakeFiles/checker.dir/utils/utils_2.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/checker.dir/utils/utils_2.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/hangyulkim/42/42cursus/2_circle/push_swap/utils/utils_2.c -o CMakeFiles/checker.dir/utils/utils_2.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/hakim/push_swap_git/utils/utils_2.c -o CMakeFiles/checker.dir/utils/utils_2.c.s
 
 CMakeFiles/checker.dir/sorting/sort_gets.c.o: CMakeFiles/checker.dir/flags.make
 CMakeFiles/checker.dir/sorting/sort_gets.c.o: ../sorting/sort_gets.c
 CMakeFiles/checker.dir/sorting/sort_gets.c.o: CMakeFiles/checker.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hangyulkim/42/42cursus/2_circle/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/checker.dir/sorting/sort_gets.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/checker.dir/sorting/sort_gets.c.o -MF CMakeFiles/checker.dir/sorting/sort_gets.c.o.d -o CMakeFiles/checker.dir/sorting/sort_gets.c.o -c /Users/hangyulkim/42/42cursus/2_circle/push_swap/sorting/sort_gets.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hakim/push_swap_git/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/checker.dir/sorting/sort_gets.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/checker.dir/sorting/sort_gets.c.o -MF CMakeFiles/checker.dir/sorting/sort_gets.c.o.d -o CMakeFiles/checker.dir/sorting/sort_gets.c.o -c /Users/hakim/push_swap_git/sorting/sort_gets.c
 
 CMakeFiles/checker.dir/sorting/sort_gets.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/checker.dir/sorting/sort_gets.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/hangyulkim/42/42cursus/2_circle/push_swap/sorting/sort_gets.c > CMakeFiles/checker.dir/sorting/sort_gets.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/hakim/push_swap_git/sorting/sort_gets.c > CMakeFiles/checker.dir/sorting/sort_gets.c.i
 
 CMakeFiles/checker.dir/sorting/sort_gets.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/checker.dir/sorting/sort_gets.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/hangyulkim/42/42cursus/2_circle/push_swap/sorting/sort_gets.c -o CMakeFiles/checker.dir/sorting/sort_gets.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/hakim/push_swap_git/sorting/sort_gets.c -o CMakeFiles/checker.dir/sorting/sort_gets.c.s
 
 CMakeFiles/checker.dir/get_next_line/get_next_line.c.o: CMakeFiles/checker.dir/flags.make
 CMakeFiles/checker.dir/get_next_line/get_next_line.c.o: ../get_next_line/get_next_line.c
 CMakeFiles/checker.dir/get_next_line/get_next_line.c.o: CMakeFiles/checker.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hangyulkim/42/42cursus/2_circle/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/checker.dir/get_next_line/get_next_line.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/checker.dir/get_next_line/get_next_line.c.o -MF CMakeFiles/checker.dir/get_next_line/get_next_line.c.o.d -o CMakeFiles/checker.dir/get_next_line/get_next_line.c.o -c /Users/hangyulkim/42/42cursus/2_circle/push_swap/get_next_line/get_next_line.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hakim/push_swap_git/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/checker.dir/get_next_line/get_next_line.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/checker.dir/get_next_line/get_next_line.c.o -MF CMakeFiles/checker.dir/get_next_line/get_next_line.c.o.d -o CMakeFiles/checker.dir/get_next_line/get_next_line.c.o -c /Users/hakim/push_swap_git/get_next_line/get_next_line.c
 
 CMakeFiles/checker.dir/get_next_line/get_next_line.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/checker.dir/get_next_line/get_next_line.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/hangyulkim/42/42cursus/2_circle/push_swap/get_next_line/get_next_line.c > CMakeFiles/checker.dir/get_next_line/get_next_line.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/hakim/push_swap_git/get_next_line/get_next_line.c > CMakeFiles/checker.dir/get_next_line/get_next_line.c.i
 
 CMakeFiles/checker.dir/get_next_line/get_next_line.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/checker.dir/get_next_line/get_next_line.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/hangyulkim/42/42cursus/2_circle/push_swap/get_next_line/get_next_line.c -o CMakeFiles/checker.dir/get_next_line/get_next_line.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/hakim/push_swap_git/get_next_line/get_next_line.c -o CMakeFiles/checker.dir/get_next_line/get_next_line.c.s
 
 CMakeFiles/checker.dir/get_next_line/get_next_line_utils.c.o: CMakeFiles/checker.dir/flags.make
 CMakeFiles/checker.dir/get_next_line/get_next_line_utils.c.o: ../get_next_line/get_next_line_utils.c
 CMakeFiles/checker.dir/get_next_line/get_next_line_utils.c.o: CMakeFiles/checker.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hangyulkim/42/42cursus/2_circle/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/checker.dir/get_next_line/get_next_line_utils.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/checker.dir/get_next_line/get_next_line_utils.c.o -MF CMakeFiles/checker.dir/get_next_line/get_next_line_utils.c.o.d -o CMakeFiles/checker.dir/get_next_line/get_next_line_utils.c.o -c /Users/hangyulkim/42/42cursus/2_circle/push_swap/get_next_line/get_next_line_utils.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hakim/push_swap_git/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/checker.dir/get_next_line/get_next_line_utils.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/checker.dir/get_next_line/get_next_line_utils.c.o -MF CMakeFiles/checker.dir/get_next_line/get_next_line_utils.c.o.d -o CMakeFiles/checker.dir/get_next_line/get_next_line_utils.c.o -c /Users/hakim/push_swap_git/get_next_line/get_next_line_utils.c
 
 CMakeFiles/checker.dir/get_next_line/get_next_line_utils.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/checker.dir/get_next_line/get_next_line_utils.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/hangyulkim/42/42cursus/2_circle/push_swap/get_next_line/get_next_line_utils.c > CMakeFiles/checker.dir/get_next_line/get_next_line_utils.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/hakim/push_swap_git/get_next_line/get_next_line_utils.c > CMakeFiles/checker.dir/get_next_line/get_next_line_utils.c.i
 
 CMakeFiles/checker.dir/get_next_line/get_next_line_utils.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/checker.dir/get_next_line/get_next_line_utils.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/hangyulkim/42/42cursus/2_circle/push_swap/get_next_line/get_next_line_utils.c -o CMakeFiles/checker.dir/get_next_line/get_next_line_utils.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/hakim/push_swap_git/get_next_line/get_next_line_utils.c -o CMakeFiles/checker.dir/get_next_line/get_next_line_utils.c.s
 
 CMakeFiles/checker.dir/checkerdir/checker.c.o: CMakeFiles/checker.dir/flags.make
 CMakeFiles/checker.dir/checkerdir/checker.c.o: ../checkerdir/checker.c
 CMakeFiles/checker.dir/checkerdir/checker.c.o: CMakeFiles/checker.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hangyulkim/42/42cursus/2_circle/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/checker.dir/checkerdir/checker.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/checker.dir/checkerdir/checker.c.o -MF CMakeFiles/checker.dir/checkerdir/checker.c.o.d -o CMakeFiles/checker.dir/checkerdir/checker.c.o -c /Users/hangyulkim/42/42cursus/2_circle/push_swap/checkerdir/checker.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hakim/push_swap_git/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/checker.dir/checkerdir/checker.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/checker.dir/checkerdir/checker.c.o -MF CMakeFiles/checker.dir/checkerdir/checker.c.o.d -o CMakeFiles/checker.dir/checkerdir/checker.c.o -c /Users/hakim/push_swap_git/checkerdir/checker.c
 
 CMakeFiles/checker.dir/checkerdir/checker.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/checker.dir/checkerdir/checker.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/hangyulkim/42/42cursus/2_circle/push_swap/checkerdir/checker.c > CMakeFiles/checker.dir/checkerdir/checker.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/hakim/push_swap_git/checkerdir/checker.c > CMakeFiles/checker.dir/checkerdir/checker.c.i
 
 CMakeFiles/checker.dir/checkerdir/checker.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/checker.dir/checkerdir/checker.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/hangyulkim/42/42cursus/2_circle/push_swap/checkerdir/checker.c -o CMakeFiles/checker.dir/checkerdir/checker.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/hakim/push_swap_git/checkerdir/checker.c -o CMakeFiles/checker.dir/checkerdir/checker.c.s
 
 CMakeFiles/checker.dir/checkerdir/checker_oper_1.c.o: CMakeFiles/checker.dir/flags.make
 CMakeFiles/checker.dir/checkerdir/checker_oper_1.c.o: ../checkerdir/checker_oper_1.c
 CMakeFiles/checker.dir/checkerdir/checker_oper_1.c.o: CMakeFiles/checker.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hangyulkim/42/42cursus/2_circle/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/checker.dir/checkerdir/checker_oper_1.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/checker.dir/checkerdir/checker_oper_1.c.o -MF CMakeFiles/checker.dir/checkerdir/checker_oper_1.c.o.d -o CMakeFiles/checker.dir/checkerdir/checker_oper_1.c.o -c /Users/hangyulkim/42/42cursus/2_circle/push_swap/checkerdir/checker_oper_1.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hakim/push_swap_git/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/checker.dir/checkerdir/checker_oper_1.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/checker.dir/checkerdir/checker_oper_1.c.o -MF CMakeFiles/checker.dir/checkerdir/checker_oper_1.c.o.d -o CMakeFiles/checker.dir/checkerdir/checker_oper_1.c.o -c /Users/hakim/push_swap_git/checkerdir/checker_oper_1.c
 
 CMakeFiles/checker.dir/checkerdir/checker_oper_1.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/checker.dir/checkerdir/checker_oper_1.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/hangyulkim/42/42cursus/2_circle/push_swap/checkerdir/checker_oper_1.c > CMakeFiles/checker.dir/checkerdir/checker_oper_1.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/hakim/push_swap_git/checkerdir/checker_oper_1.c > CMakeFiles/checker.dir/checkerdir/checker_oper_1.c.i
 
 CMakeFiles/checker.dir/checkerdir/checker_oper_1.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/checker.dir/checkerdir/checker_oper_1.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/hangyulkim/42/42cursus/2_circle/push_swap/checkerdir/checker_oper_1.c -o CMakeFiles/checker.dir/checkerdir/checker_oper_1.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/hakim/push_swap_git/checkerdir/checker_oper_1.c -o CMakeFiles/checker.dir/checkerdir/checker_oper_1.c.s
 
 CMakeFiles/checker.dir/checkerdir/checker_oper_2.c.o: CMakeFiles/checker.dir/flags.make
 CMakeFiles/checker.dir/checkerdir/checker_oper_2.c.o: ../checkerdir/checker_oper_2.c
 CMakeFiles/checker.dir/checkerdir/checker_oper_2.c.o: CMakeFiles/checker.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hangyulkim/42/42cursus/2_circle/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/checker.dir/checkerdir/checker_oper_2.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/checker.dir/checkerdir/checker_oper_2.c.o -MF CMakeFiles/checker.dir/checkerdir/checker_oper_2.c.o.d -o CMakeFiles/checker.dir/checkerdir/checker_oper_2.c.o -c /Users/hangyulkim/42/42cursus/2_circle/push_swap/checkerdir/checker_oper_2.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hakim/push_swap_git/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/checker.dir/checkerdir/checker_oper_2.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/checker.dir/checkerdir/checker_oper_2.c.o -MF CMakeFiles/checker.dir/checkerdir/checker_oper_2.c.o.d -o CMakeFiles/checker.dir/checkerdir/checker_oper_2.c.o -c /Users/hakim/push_swap_git/checkerdir/checker_oper_2.c
 
 CMakeFiles/checker.dir/checkerdir/checker_oper_2.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/checker.dir/checkerdir/checker_oper_2.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/hangyulkim/42/42cursus/2_circle/push_swap/checkerdir/checker_oper_2.c > CMakeFiles/checker.dir/checkerdir/checker_oper_2.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/hakim/push_swap_git/checkerdir/checker_oper_2.c > CMakeFiles/checker.dir/checkerdir/checker_oper_2.c.i
 
 CMakeFiles/checker.dir/checkerdir/checker_oper_2.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/checker.dir/checkerdir/checker_oper_2.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/hangyulkim/42/42cursus/2_circle/push_swap/checkerdir/checker_oper_2.c -o CMakeFiles/checker.dir/checkerdir/checker_oper_2.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/hakim/push_swap_git/checkerdir/checker_oper_2.c -o CMakeFiles/checker.dir/checkerdir/checker_oper_2.c.s
 
 # Object files for target checker
 checker_OBJECTS = \
@@ -285,7 +285,7 @@ checker: CMakeFiles/checker.dir/checkerdir/checker_oper_1.c.o
 checker: CMakeFiles/checker.dir/checkerdir/checker_oper_2.c.o
 checker: CMakeFiles/checker.dir/build.make
 checker: CMakeFiles/checker.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/hangyulkim/42/42cursus/2_circle/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Linking C executable checker"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/hakim/push_swap_git/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Linking C executable checker"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/checker.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -297,6 +297,6 @@ CMakeFiles/checker.dir/clean:
 .PHONY : CMakeFiles/checker.dir/clean
 
 CMakeFiles/checker.dir/depend:
-	cd /Users/hangyulkim/42/42cursus/2_circle/push_swap/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/hangyulkim/42/42cursus/2_circle/push_swap /Users/hangyulkim/42/42cursus/2_circle/push_swap /Users/hangyulkim/42/42cursus/2_circle/push_swap/cmake-build-debug /Users/hangyulkim/42/42cursus/2_circle/push_swap/cmake-build-debug /Users/hangyulkim/42/42cursus/2_circle/push_swap/cmake-build-debug/CMakeFiles/checker.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/hakim/push_swap_git/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/hakim/push_swap_git /Users/hakim/push_swap_git /Users/hakim/push_swap_git/cmake-build-debug /Users/hakim/push_swap_git/cmake-build-debug /Users/hakim/push_swap_git/cmake-build-debug/CMakeFiles/checker.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/checker.dir/depend
 

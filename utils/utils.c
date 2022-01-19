@@ -20,10 +20,11 @@ int	error_occurred(int mode)
 	return (0);
 }
 
-void	ft_free_intarr(int *arr)
+int	*ft_free_intarr(int *arr)
 {
 	free(arr);
 	arr = 0;
+	return (0);
 }
 
 void	ft_intset(int *arr, int n, int size)

@@ -84,14 +84,13 @@ int	*carve(int *temp, int count)
 
 	carved = malloc(sizeof(int) * count);
 	if (carved == 0)
-	{
-		ft_free_intarr(temp);
-		return (0);
-	}
+		return (ft_free_intarr(temp));
 	index = -1;
 	while (++index < count)
 		carved[index] = temp[index];
 	temp = merge_sort(temp, count);
+	if (temp == 0)
+		return (ft_free_intarr(carved));
 	index = -1;
 	while (++index < count)
 	{
@@ -110,10 +109,7 @@ int	*prep_stack(int *carved, t_deque *a, t_deque *b)
 
 	deque_init(a, 'a');
 	if (a->stack == 0)
-	{
-		ft_free_intarr(carved);
-		return (0);
-	}
+		return (ft_free_intarr(carved));
 	b->capacity = a->capacity;
 	deque_init(b, 'b');
 	if (b->stack == 0)
